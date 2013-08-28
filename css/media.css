@@ -123,10 +123,14 @@ h1 {
 	outline: none;
 	width:150px;
 	background-size:30px;
-	margin-top: 13px;
+	margin-top: 7px;
 	font-size:24px;
 	min-width:auto;
 }
+
+#social-nav {
+ 	display: none;
+ }
 
 .home-parallax {
 	height: auto !important;
@@ -273,6 +277,18 @@ a#button-newsletter {
 
 }
  @media only screen and (max-width: 479px) {
+	nav.navigation {
+		height: 173px;
+	}
+
+	#secondary-nav a {
+		line-height: 35px;
+		font-size: 14px;
+	}
+
+	#secondary-nav {
+		height: 35px;
+	}
 	 
 .home-logo-text a {
 	font-size:32px;
@@ -283,7 +299,7 @@ a#button-newsletter {
 .selectnav {
 	width:150px;
 	background-size:30px;
-	margin-top: 13px;
+	margin-top: 7px;
 	font-size:24px;
 	min-width:auto;
 }

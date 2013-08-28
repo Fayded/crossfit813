@@ -56,7 +56,7 @@ a, a:visited, a:hover {
 }
 body {
 	background: white;
-	font: 13px/1.5 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px/1.4 "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	color: #515A5F;
 	-webkit-font-smoothing: antialiased;
@@ -338,13 +338,14 @@ nav .container .twelve.columns {
 	width: auto
 }
 .main-menu, .logo {
-	height: 50px;
-	display: table-cell;
-	vertical-align: middle;
+	height: 35px;
+    display: table-cell;
+    padding: 0;
 }
-.main-menu.large, .logo.large {
-	height: 80px;
+.main-menu.large { 
+	/*height: 80px;*/
 }
+
 .logo a {
 	display: block;
 	margin: auto;
@@ -358,6 +359,7 @@ nav .container .twelve.columns {
 .main-menu a {
 	font-family: 'BebasNeueRegular', sans-serif;
 	font-size: 22px;
+    line-height: 32px;
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -707,7 +709,7 @@ ul#nav li {
 	overflow:hidden;
 }
 .overlay {
-	background: url(../images/pattern.png);
+	/*background: url(../images/pattern.png);*/
 	width: 100%;
 	position: absolute;
 	overflow:hidden;
@@ -947,9 +949,8 @@ p.quote {
 /*======== HOME LOGO ========*/	
 
 .home-logo, .home-logo-text {
-	margin: 30px 0 100px;
 	position: relative;
-	display: block;
+	display: none;
 	text-align: center;
 	width: 100%;
 }
@@ -2585,3 +2586,185 @@ opacity: 0;
  color: #3A3838;
 }
 
+/*/////////////// FUN BEGINS /////////////////*/
+
+nav.navigation {
+    background: url(../images/header.jpg) repeat-x;
+    height: 234px;
+    text-align: center;
+}
+
+.logo.large {
+    position: absolute;
+    top: 6px;
+}
+
+#social-nav {
+	float: right;
+	border-left: 1px solid white;
+	padding: 16px 0 16px 20px;
+	overflow: hidden;
+	margin: 40px 0 0;
+}
+
+#social-nav a {
+	margin: 0 0 0 14px;
+	display: inline-block;
+}
+
+#secondary-nav {
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom:0;
+	background: #3cbae3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #3cbae3 0%, #42d0ff 18%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3cbae3), color-stop(18%,#42d0ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3cbae3 0%,#42d0ff 18%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3cbae3 0%,#42d0ff 18%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3cbae3 0%,#42d0ff 18%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3cbae3 0%,#42d0ff 18%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cbae3', endColorstr='#42d0ff',GradientType=0 ); /* IE6-9 */
+}
+
+#secondary-nav a {
+     color: #2e2e2e; 
+     font-family: 'HelveticaNeue Thin', sans-serif;
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 40px;
+}
+
+.home-parallax {
+	background-position: 50% 1000px;
+}
+
+.why-crossfit {
+	font-family: BebasNeueRegular, Helvetica, sans-serif;
+	color: #0d72b8;
+	font-size: 86px;
+}
+
+.about-images {
+	overflow: hidden;
+}
+
+.about-images img {
+	width: 42%;
+	float: left;
+	margin: 0 12px 12px 0;
+}
+
+#about {
+	background: url(../images/gray-diagonal-1.jpg), url(../images/gray-diagonal-2.jpg);
+	background-repeat: no-repeat, no-repeat;
+  	background-position: bottom left, top right;
+  	padding-bottom: 10px;
+}
+
+#about .cta {
+	display: block;
+	margin: 25px 0 0;
+}
+
+#about.section {
+	padding-top: 20px;
+}
+
+.dark-blue {
+	color: #0d72b8;
+}
+
+.parallax-content {
+	font-size: 94px;
+	font-family: BebasNeueRegular, Helvetica, sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 0.8em;
+	margin-top: 0;
+}
+
+.container .blue-barbell {
+	border-left: 8px solid #e71818;
+}
+
+.tpg-get-posts-post h2, .tpg-byline-class, .tpg-metadata-class {
+	display: none;
+}
+
+.tpg-get-posts {
+	text-align: center;
+	color: #000;
+	font-size: 38px;
+	line-height: 1.2em;
+}
+
+#getting-started .parallax-content, #getting-started.parallax {
+	height: 421px !important;
+}
+
+#getting-started .aligncenter {
+	font-size: 150px;
+	color: white;
+}
+
+#getting-started .aligncenter a {
+	font-size: 55px;
+	color: #000;
+}
+
+.parallax-content {
+	padding: 30px 0 0;
+}
+
+.full-width {
+	padding: 0;
+}
+
+#blue, #blue .parallax-content {
+	height: 511px !important;
+}
+
+#blue .parallax-content {
+	font-size: 140px;
+	line-height: 0.9em;
+	padding-top: 10px;
+}
+
+#shortcuts, #shortcuts .parallax-content {
+	height: 490px !important;
+}
+
+#shortcuts .parallax-content {		
+	font-family: BebasNeueRegular, Helvetica, sans-serif;
+	color: #42d0ff;
+	font-size: 80px;
+	line-height: 1.2em;
+}
+
+#shortcuts .parallax-content strong {
+	color: #fff;
+	font-size: 150px;
+	font-weight: normal;
+}
+
+.copyright {
+	background: url(../images/footer.jpg) no-repeat !important;
+}
+
+#contact {
+	padding: 20px 0 0 !important;
+	background: #303030 url(../images/texture.jpg) !important;
+}
+
+#contact h1 {
+	font-family: "BebasNeueRegular", "HelveticaNeue", sans-serif;
+	font-size: 90px;
+}
+
+#wod-home {
+	background: url(../images/wod-diagonal-1.png), url(../images/wod-diagonal-2.png), url(../images/brickwall.png);
+	background-repeat: no-repeat, no-repeat, repeat;
+  	background-position: bottom left, top right, top;
+  	padding-bottom: 10px;
+}
