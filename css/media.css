@@ -63,6 +63,13 @@ h1 {
 	width: 50%;
 }
 
+#blue .parallax-content {
+	font-size: 100px;
+}
+
+.why-crossfit {
+	font-size: 76px;
+}
 
 }
  @media only screen and (max-width: 767px) {

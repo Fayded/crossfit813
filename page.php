@@ -35,7 +35,7 @@ if (have_posts()) : while (have_posts()) : the_post();
       <div class="container">           
            <?php the_content(); ?>
            <?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
-           <?php comments_template(); ?>  
+
       </div>	  
 
 				
@@ -47,8 +47,12 @@ if (have_posts()) : while (have_posts()) : the_post();
     endif; 
 	wp_reset_query();
 ?>
-
-
-
+ <div id="footer">
+      <div class="container">
+        <div class="one_half">
+          <a href="http://crossfit813/wp-content/uploads/2013/08/journal.png"><img class="alignnone size-full wp-image-343" alt="journal" src="http://crossfit813/wp-content/uploads/2013/08/journal.png" width="180" height="90"></a>
+        </div>
+      </div>
+    </div>
 
 <?php get_footer(); ?>

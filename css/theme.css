@@ -51,11 +51,11 @@ BEGIN THEME STYLESHEET
 }
 
 ::-moz-selection {
- background: #FFD600;
+ background: #37d0fc;
  color: white;
 }
 ::selection {
-	background: #FFD600;
+	background: #37d0fc;
 	color: white;
 }
 a, a:visited, a:hover {
@@ -65,7 +65,7 @@ body {
 	background: white;
 	font: 16px/1.4 "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	color: #515A5F;
+	color: #000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 	overflow-x: hidden;
@@ -133,7 +133,7 @@ img {
 	height: auto;
 }
 a {
-	color: #FFD600;
+	color: #37d0fc;
 	text-decoration: none;
 	outline: 0;
 	-webkit-transition: all 0.2s ease;
@@ -143,7 +143,7 @@ a {
 	transition: all 0.2s ease;
 }
 .highlight {
-	color: #FFD600;
+	color: #37d0fc;
 }
 a:hover, a:focus {
 	color: #666666;
@@ -215,7 +215,8 @@ body #load {
 }
 h1 {
 	font-family: 'BebasNeueRegular', sans-serif;
-	font-size: 80px;
+	font-size: 60px !important;
+	color: #006fb7 !important;
 	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 0px;
@@ -229,6 +230,8 @@ h2 {
 h3 {
 	font-family: 'BebasNeueRegular', sans-serif;
 	font-size: 30px;
+	color: #006fb7 !important;
+	text-transform: uppercase !important;
 }
 h4 {
 	font-family: 'Oswald', sans-serif;
@@ -241,6 +244,7 @@ h5 {
 h6 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
+	text-transform: uppercase !important;
 }
 p {
 	margin-bottom: 10px;
@@ -320,7 +324,7 @@ nav.transparent.scroll a {
 /* ------------------------------------------------------------------------ */
 
 nav.colored, nav.light.colored {
-	background: #ffd600;
+	background: #37d0fc;
 	box-shadow: 0px 4px 15px rgba(0,0,0,0.07);
 	border-bottom: 0px;	
 }
@@ -375,14 +379,14 @@ nav.light .main-menu a {
 	color: inherit;
 }
 nav.light .main-menu a:hover, nav.dark .main-menu a:hover {
-	color: #FFD600;
+	color: #37d0fc;
 	transition: color 0.5s;
 	-moz-transition: color 0.5s;
 	-webkit-transition: color 0.5s;
 	-o-transition: color 0.5s;
 }
 nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
-	color: #FFD600;
+	color: #37d0fc;
 }
 .main-menu a i {
 	margin-right: 3px;
@@ -412,7 +416,7 @@ ul#nav li {
 }
 #nav .sub-menu {
 	position: absolute;
-	top: 52px;
+	top: 37px;
 	left: -15px;
 	z-index: 2000;
 	display: none;
@@ -434,7 +438,7 @@ ul#nav li {
 	width: 160px;
 	margin: 0;
 	padding: 8px 15px;
-	color: #515A5F;
+	color: #000;
 	line-height: normal;
 	height: auto;
 	box-shadow: none;
@@ -445,7 +449,7 @@ ul#nav li {
 #nav .sub-menu li a:hover, 
 #nav .sub-menu li .sub-menu li a:hover, 
 #nav .sub-menu li .sub-menu li .sub-menu li a:hover {
-	color: #FFD600;
+	color: #37d0fc;
 }
 
 #nav .sub-menu li.current-menu-item a, 
@@ -459,7 +463,7 @@ ul#nav li {
 #nav .sub-menu li a.active, 
 #nav .sub-menu li a.active:hover
 {
-	background: #FFD600;
+	background: #37d0fc;
 	color: #fff;
 	-webkit-box-shadow: mone;
 	-mox-box-shadow: none;
@@ -490,7 +494,7 @@ ul#nav li {
 	color: #ffffff;
 }
 .home1 .slabtextdone .slabtext.second-child {
-	background: #FFD600;
+	background: #37d0fc;
 	padding: 15px 10px 0;
 	display: inline-block;
 	width: auto;
@@ -564,7 +568,7 @@ ul#nav li {
 .home3 .slabtextdone .slabtext.second-child {
 	display: inline-block;
 	width: auto;
-	color: #FFD600;
+	color: #37d0fc;
 	text-shadow: none;
 	overflow: hidden;
 }
@@ -609,7 +613,7 @@ ul#nav li {
 	box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0.32);
 }
 .home4 .slabtextdone .slabtext.second-child {
-	background: #FFD600;
+	background: #37d0fc;
 	padding: 15px 10px 0;
 	display: inline-block;
 	width: auto;
@@ -752,7 +756,7 @@ p.quote {
 	margin: 0 5px;
 }
 .parallax .quote i {
-	color: #FFD600;
+	color: #37d0fc;
 }
 .quote-author {
 	height: 24px;
@@ -787,7 +791,7 @@ p.quote {
 	color: #ffffff;
 	display: inline-block;
 	padding: 17px;
-	background: #FFD600;
+	background: #37d0fc;
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 4px rgb(255, 255, 255);
 }
@@ -849,7 +853,7 @@ p.quote {
 	color: #ffffff;
 	display: inline-block;
 	padding: 17px;
-	background: #FFD600;
+	background: #37d0fc;
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 4px rgb(255, 255, 255);
 }
@@ -881,7 +885,7 @@ p.quote {
 --------------------------------------------------------*/
 
 .section {
-	padding: 100px 0 60px;
+	padding: 0 0 60px;
 	position: relative;
 	background: #ffffff;
 	z-index:6;
@@ -906,10 +910,10 @@ p.quote {
 	line-height: 0.8;
 	display: inline-block;
 	padding: 10px 10px 3px;
-	background: #FFD600;
+	background: #37d0fc;
 	color: #ffffff;
 	border: 4px solid #ffffff;
-	box-shadow: 0px 0px 0px 3px #FFD600;
+	box-shadow: 0px 0px 0px 3px #37d0fc;
 }
 .multipage .title h1 {
 	margin: 60px 0 40px;
@@ -941,7 +945,7 @@ p.quote {
 .home-parallax {
 	background: url(../images/parallax/parallax4.jpg);
 	background-size: cover !important;
-	background-color: #FFD600;
+	background-color: #37d0fc;
 	background-attachment:fixed !important;
 	padding:0;
 	position: relative;
@@ -1044,7 +1048,7 @@ p.quote {
 	border: 2px solid;
 }
 #filters ul li a:hover h3, #filters ul li a.active h3 {
-	color: #FFD600;
+	color: #37d0fc;
 }
 /*==== PORTFOLIO AJAX NAVIGATION =====*/
 #project-navigation {
@@ -1091,10 +1095,10 @@ p.quote {
 	transition: all 0.3s ease-in-out;
 }
 #project-navigation ul li#prevProject a:hover, #project-navigation ul li#nextProject a:hover {
-	background-color: #FFD600;
+	background-color: #37d0fc;
 }
 #project-navigation ul li a:hover {
-	background-color: #FFD600;
+	background-color: #37d0fc;
 }
 #project-navigation ul li a.disabled, #project-navigation ul li a.disabled:hover {
 	cursor: default;
@@ -1120,7 +1124,7 @@ p.quote {
 	border-radius: 50%;
 }
 #closeProject a:hover {
-	background: #FFD600;
+	background: #37d0fc;
 }
 #closeProject a i {
 	font-size: 14px;
@@ -1393,7 +1397,7 @@ p.quote {
 	color: inherit;
 }
 .post-title a:hover {
-	color: #FFD600;
+	color: #37d0fc;
 }
 
 
@@ -1480,7 +1484,7 @@ p.quote {
 	text-decoration: none;
 }
 .post-tags li a:hover {
-	color: #FFD600;
+	color: #37d0fc;
 }
 .post-meta {
 	font-size: 11px;
@@ -1531,7 +1535,7 @@ p.quote {
 	text-decoration: none;
 }
 .tags-list li a:hover {
-	color: #FFD600;
+	color: #37d0fc;
 }
 .blog-tweet {
 	font-size: 11px;
@@ -1566,12 +1570,12 @@ p.quote {
 	color: #151515;
 }
 .pages li a.current {
-	border-top: 2px solid #FFD600;
-	border-bottom: 2px solid #FFD600;
+	border-top: 2px solid #37d0fc;
+	border-bottom: 2px solid #37d0fc;
 	color: #1c1f26;
 }
 .pages li a:hover {
-	color: #FFD600;
+	color: #37d0fc;
 }
 /* ------------------------------------------------------------------------ */
 /* 11. PAGINATION */
@@ -1884,7 +1888,7 @@ margin-bottom:10px;
 	transition: all 0.2s;
 	color: #ffffff;
 	cursor: pointer;
-	background-color: #FFD600;
+	background-color: #37d0fc;
 }
 
 /*======== CONTACT SECTION ========*/
@@ -1917,7 +1921,7 @@ margin-bottom:10px;
 .copyright {
 	width: 100%;
 	padding: 40px 0;
-	background: #FFD600;
+	background: #37d0fc;
 	font-size: 11px;
 }
 
@@ -2580,7 +2584,7 @@ opacity: 0;
 	transition: all 0.2s;
 	color: #ffffff;
 	cursor: pointer;
-	background-color: #FFD600;	
+	background-color: #37d0fc;	
 }
 
 .mc4wp-form input:-moz-placeholder, .mc4wp-form textarea:-moz-placeholder {
@@ -2683,12 +2687,12 @@ nav.navigation {
   	padding-bottom: 10px;
 }
 
-#about .cta {
+#about-home .cta {
 	display: block;
 	margin: 25px 0 0;
 }
 
-#about.section {
+#about-home.section {
 	padding-top: 20px;
 }
 
@@ -2800,14 +2804,12 @@ nav.navigation {
 	z-index: 10;
 }
 
-
-#wod-home .one_half {
-	font-family: "BebasNeueRegular", "HelveticaNeue", sans-serif;
-	font-size: 66px;
+#wod-home, #wod-home .parallax-content {
+	height: 440px;
 }
 
-#wod-home .one_half.last {
-	font-size: 240px;
+#wod-home .parallax-content {
+	padding: 10px 0 0;
 }
 
 #wod-home .one_half.last a {
@@ -2816,6 +2818,42 @@ nav.navigation {
 	font-family: "Covered", "BebasNeueRegular", "HelveticaNeue", sans-serif;
 }
 
+#wod-home .one_half.last li:first-child a {
+	font-family: "BebasNeueRegular", "HelveticaNeue", sans-serif;
+	color: white;
+	font-size: 66px;
+	font-size: 240px;
+}
 
+#wod-home ul {
+	text-align: center;
+	margin: 40px 0 0;
+}
 
+.page-wrap .container:first-child {
+	height: 235px;
+}
 
+#contact-home .container {
+	height: auto !important;
+}
+
+.rnr-google-map {
+    border: 10px solid #e2e2e2;
+}
+
+#contact .fancy-header1 {
+	margin-bottom: 0;
+}
+
+#getting-started table td {
+	padding: 3px 40px 3px 0;
+}
+
+#getting-started table {
+	margin: 0 0 20px 0;
+}
+
+#footer .one_half {
+    margin: 80px 0 0;
+}

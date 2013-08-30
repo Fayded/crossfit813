@@ -12,7 +12,6 @@
 		  </script>
   
    <?php } ?>
-   
   
 
 	<?php if($smof_data['rnr_custom_js'] != '') { echo $smof_data['rnr_custom_js']; } ?>
