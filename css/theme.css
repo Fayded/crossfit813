@@ -43,6 +43,13 @@ BEGIN THEME STYLESHEET
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Covered';
+	src: url('../fonts/CoveredByYourGrace.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 ::-moz-selection {
  background: #FFD600;
  color: white;
@@ -2591,7 +2598,10 @@ opacity: 0;
 nav.navigation {
     background: url(../images/header.jpg) repeat-x;
     height: 234px;
+    position: absolute;
     text-align: center;
+    z-index: 10000;
+    zoom: 1;
 }
 
 .logo.large {
@@ -2630,9 +2640,20 @@ nav.navigation {
 #secondary-nav a {
      color: #2e2e2e; 
      font-family: 'HelveticaNeue Thin', sans-serif;
-     font-weight: bold;
+     /* font-weight: bold; */
      font-size: 16px;
      line-height: 40px;
+     margin: 0;
+     padding: 0 10px;
+}
+
+#secondary-nav > img {
+    position: relative;
+    top: 3px;
+}
+
+#secondary-nav a:first-child {
+	margin: 0;
 }
 
 .home-parallax {
@@ -2748,18 +2769,23 @@ nav.navigation {
 	font-weight: normal;
 }
 
-.copyright {
-	background: url(../images/footer.jpg) no-repeat !important;
+#footer {
+	background: url(../images/footer.png), url(../images/mochaGrunge.jpg);
+	background-repeat: no-repeat, repeat;
+  	background-position: bottom right, top;
+  	padding: 0;
+  	height: 230px !important;
 }
 
-#contact {
+#contact-home {
 	padding: 20px 0 0 !important;
 	background: #303030 url(../images/texture.jpg) !important;
 }
 
-#contact h1 {
+#contact-home h1 {
 	font-family: "BebasNeueRegular", "HelveticaNeue", sans-serif;
 	font-size: 90px;
+	color: #42d0ff;
 }
 
 #wod-home {
@@ -2768,3 +2794,28 @@ nav.navigation {
   	background-position: bottom left, top right, top;
   	padding-bottom: 10px;
 }
+
+#selectnav1 {
+	position: relative;
+	z-index: 10;
+}
+
+
+#wod-home .one_half {
+	font-family: "BebasNeueRegular", "HelveticaNeue", sans-serif;
+	font-size: 66px;
+}
+
+#wod-home .one_half.last {
+	font-size: 240px;
+}
+
+#wod-home .one_half.last a {
+	color: #000;
+	font-size: 66px;
+	font-family: "Covered", "BebasNeueRegular", "HelveticaNeue", sans-serif;
+}
+
+
+
+

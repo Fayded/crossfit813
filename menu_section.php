@@ -49,6 +49,7 @@
       </div><!-- END CONTAINER -->  
     <div id="secondary-nav">
       <a href="#">MAIN - WOHO</a>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/secondary-divider.png" />
       <a href="#">WEST - TOWN 'N COUNTRY</a>
     </div>
     </nav>
