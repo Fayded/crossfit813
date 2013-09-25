@@ -18,6 +18,15 @@ MEDIA QUERIES
 	max-height:800px;
 }
 
+#overhead {
+	height: 400px !important;
+}
+
+#blue, #blue .parallax-content {
+		height: 400px;
+		padding: 0;
+}
+
 }
 
 
@@ -36,6 +45,9 @@ MEDIA QUERIES
 
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+	.page-wrap {
+ 		padding: 166px 0 0;
+ 	}
 h1 {
 	font-size: 80px;
 }
@@ -45,6 +57,10 @@ h1 {
 
 .main-menu a {
 	font-size:18px;
+}
+
+.logo.large {
+	top: 11px;
 }
 
 .parallax-bg {
@@ -63,16 +79,28 @@ h1 {
 	width: 50%;
 }
 
-#blue .parallax-content {
-	font-size: 100px;
-}
-
 .why-crossfit {
 	font-size: 76px;
 }
 
 }
  @media only screen and (max-width: 767px) {
+ 	#blue .parallax-content {
+		font-size: 64px;
+		line-height: 64px;
+	}	
+
+.page-wrap {
+ 	padding: 166px 0 0;
+}
+.why-crossfit {
+	font-size: 45px;
+}
+ 	
+.logo.large {
+ 	top: 14px;
+}
+
 h1 {
 	font-size: 54px;
 	line-height: 1;
@@ -135,7 +163,7 @@ h1 {
 	min-width:auto;
 }
 
-#social-nav {
+#header-right {
  	display: none;
  }
 
@@ -282,65 +310,113 @@ a#button-newsletter {
 	font-size:20px;
 }
 
+#wod-home .one_half.last li:first-child a {
+	font-size: 60px;
+    line-height: 1em;
+}
+
+#wod-home .one_half.last a {
+	font-size: 44px;
+}
+
+#shortcuts .parallax-content {
+	font-size: 66px;
+}
+
+#shortcuts .parallax-content strong {
+	font-size: 108px;
+}
+
 }
  @media only screen and (max-width: 479px) {
-	nav.navigation {
-		height: 173px;
-	}
 
+ 	.parallax-content {
+ 		font-size: 46px;
+ 		line-height: 46px;
+ 	}
+ 	.page-wrap {
+ 		padding: 166px 0 0;
+ 	}
+ 	.about-images {
+ 		display: none;
+ 	}
+ 	#overhead {
+ 		height: 179px !important;
+ 	}
+	.logo.large {
+		top: 30px;
+	}
+	.why-crossfit {
+		font-size: 45px;
+	    line-height: 1em;
+    }
 	#secondary-nav a {
 		line-height: 35px;
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	#secondary-nav {
 		height: 35px;
 	}
 	 
-.home-logo-text a {
-	font-size:32px;
-}
-.main-menu.large, .logo.large {
-    height: 60px;
-}
-.selectnav {
-	width:150px;
-	background-size:30px;
-	margin-top: 7px;
-	font-size:24px;
-	min-width:auto;
-}
-#portfolio-wrap .one-third {
-    width: 100%;
-}
-.home3 .container {
-	width:280px;
-	height:280px;
-}
-.home3#home h1 {
-	font-size:15px;
-	margin:0 20px;
-}
-#prevslide {
-	left:30%;
-}
-#nextslide {
-	right:30%;
-}
-a#button-newsletter {
-    width: 92%;
+	.home-logo-text a {
+		font-size:32px;
+	}
+	.main-menu.large, .logo.large {
+	    height: 60px;
+	}
+	.selectnav {
+		width:150px;
+		background-size:30px;
+		margin-top: 7px;
+		font-size:24px;
+		min-width:auto;
+	}
+	#portfolio-wrap .one-third {
+	    width: 100%;
+	}
+	.home3 .container {
+		width:280px;
+		height:280px;
+	}
+	.home3#home h1 {
+		font-size:15px;
+		margin:0 20px;
+	}
+	#prevslide {
+		left:30%;
+	}
+	#nextslide {
+		right:30%;
+	}
+	a#button-newsletter {
+	    width: 92%;
+	}
+
+	.mc4wp-form input {
+	    width: 92%;
+	}
 }
 
-.mc4wp-form input {
-    width: 92%;
-}
-
-}
  @media only screen and (min-width: 1200px) {
+ 	.header-left a {
+		background: url(../images/map-new.png) no-repeat 0 2px;
+	}
+.page-wrap .container:first-child {
+	height: 176px;
+}
+.main-menu-wrapper {
+	height: 176px !important;
+}
 nav .container {
-	width: 96%;
+	width: 80%;
 	display:block;
 }
+ul#nav {
+	position: relative;
+	top: 55px;
+}
+
 .home-logo-text a {
 	font-size:90px;
 }
@@ -378,6 +454,32 @@ nav .container {
 
 .member-bio {
 	max-height:700px;
+}
+
+#blue, #blue .parallax-content {
+	height: 511px !important;
+}
+
+#blue .parallax-content {
+	font-size: 140px;
+	line-height: 0.9em;
+	padding-top: 10px;
+}
+
+.parallax-content {
+	font-size: 94px;
+}
+
+#shortcuts, #shortcuts .parallax-content {
+	height: 490px !important;
+}
+
+#getting-started .parallax-content, #getting-started.parallax {
+	height: 421px !important;
+}
+
+#wod-home, #wod-home .parallax-content {
+	height: 440px;
 }
 
 }
