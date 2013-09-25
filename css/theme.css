@@ -559,7 +559,7 @@ ul#nav li {
     overflow: hidden;
 }
 .parallax .parallax-content, .parallax .overlay {
-    height: 400px;
+    /* height: 400px; */
 }
 .parallax-content {
     display: table-cell;
@@ -2171,10 +2171,11 @@ nav.navigation {
 .container .blue-barbell {
     border-left: 8px solid #E71818;
 }
-.tpg-get-posts-post h2, .tpg-byline-class, .tpg-metadata-class {
+.tpg-byline-class, .tpg-metadata-class {
     display: none;
 }
-.tpg-get-posts {
+
+.tpg-get-posts, .tpg-get-posts-post h2 a {
     color: #000000;
     font-size: 38px;
     line-height: 1.2em;
@@ -2213,7 +2214,7 @@ nav.navigation {
     padding: 0;
 }
 .home #footer {
-    height: 300px !important;
+    height: auto !important;
 }
 #contact-home {
     background: url("../images/texture.jpg") repeat scroll 0 0 #303030 !important;
@@ -2233,7 +2234,9 @@ nav.navigation {
     z-index: 10;
 }
 #wod-home, #wod-home .parallax-content {
-    min-height: 440px;
+    min-height: 340px;
+    height: auto !important;
+    padding: 20px 0 0;
 }
 #wod-home .parallax-content {
     padding: 10px 0 0;
@@ -2247,7 +2250,8 @@ nav.navigation {
 #wod-home .one_half.last li:first-child a {
     color: #FFFFFF;
     font-family: "BebasNeueRegular","HelveticaNeue",sans-serif;
-    font-size: 240px;
+    font-size: 90px;
+    line-height: 1em;
 }
 #wod-home ul {
     margin: 40px 0 0;
